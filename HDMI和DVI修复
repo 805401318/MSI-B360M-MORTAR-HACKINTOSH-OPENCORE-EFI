@@ -1,0 +1,9 @@
+平台b360 mortar titanium,8700K，主板的HDMI接口和DVI接口不可用解决方法：
+参考黑锅小兵的hackintool修补接口教程https://blog.daliansky.net/Tutorial-Using-Hackintool-to-open-the-correct-pose-of-the-8th-generation-core-display-HDMI-or-DVI-output.html
+平台ID选择0x3E9B0007
+接口索引1 总线ID0x01 类型HDMI
+接口索引2 总线ID0x02 类型HDMI
+接口索引3 总线ID0x05 类型DP
+应用补丁高级内只开启修复热插拔重启、显存2048MB、启用HDMI20(4K)
+应用生成补丁到config文件内
+目前可三屏显示正常
